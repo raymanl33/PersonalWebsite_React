@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: #21325e;
+  }
+
+.toggleButton {
+width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.links {
+    margin: 10px;
+    border:none;
+    background: #21325e;
+    color: white;
+    font-size: large;
+}
+  

@@ -1,7 +1,8 @@
 import Home from "./pages/Home";
-import Experiences from "./pages/Experiences";
+import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
-
+import Navbar from "./src/components/Navbar";
+import "./styles/App.css"
 
 // import react-location for routing between pages
 // https://react-location.tanstack.com
@@ -20,14 +21,14 @@ export default function App() {
       element: <Projects />
     },
     {
-      path: "experiences",
-      element: <Experiences />
+      path: "experience",
+      element: <Experience />
     }
   ];
   return (
       <Router routes={routes} location={location}>
         <div>
-          {/* HEADER AND NAVIGATION BAR */}
+          <Navbar />
           <Outlet />
           {/* FOOTER */}
         </div>
